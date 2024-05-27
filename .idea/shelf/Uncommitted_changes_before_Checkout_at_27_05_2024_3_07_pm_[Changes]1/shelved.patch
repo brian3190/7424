@@ -1,0 +1,138 @@
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	
++++ /dev/null	
+@@ -1,12 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Assignment-group.iml" filepath="$PROJECT_DIR$/.idea/modules/Assignment-group.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.androidTest.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.main.iml" />
+-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.unitTest.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: app/src/main/java/com/example/assignment_group/Driver.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/assignment_group/Driver.java b/app/src/main/java/com/example/assignment_group/Driver.java
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/example/assignment_group/Driver.java	
+@@ -0,0 +1,4 @@
++package com.example.assignment_group;
++
++public class Driver {
++}
+\ No newline at end of file
+Index: app/src/main/java/com/example/assignment_group/Login.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/assignment_group/Login.java b/app/src/main/java/com/example/assignment_group/Login.java
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/example/assignment_group/Login.java	
+@@ -0,0 +1,14 @@
++package com.example.assignment_group;
++
++import android.os.Bundle;
++
++import androidx.appcompat.app.AppCompatActivity;
++
++public class Login extends AppCompatActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
++    }
++}
+Index: app/src/main/java/com/example/assignment_group/Admin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/assignment_group/Admin.java b/app/src/main/java/com/example/assignment_group/Admin.java
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/example/assignment_group/Admin.java	
+@@ -0,0 +1,5 @@
++package com.example.assignment_group;
++
++public class Admin{
++
++}
+\ No newline at end of file
+Index: app/src/main/java/com/example/assignment_group/Bank.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/assignment_group/Bank.java b/app/src/main/java/com/example/assignment_group/Bank.java
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/example/assignment_group/Bank.java	
+@@ -0,0 +1,9 @@
++package com.example.assignment_group;
++
++import java.util.List;
++
++public class Bank {
++
++
++
++}
+Index: app/src/main/java/com/example/assignment_group/Restaurant.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/assignment_group/Restaurant.java b/app/src/main/java/com/example/assignment_group/Restaurant.java
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/example/assignment_group/Restaurant.java	
+@@ -0,0 +1,5 @@
++package com.example.assignment_group;
++
++public class Restaurant{
++
++}
+\ No newline at end of file
+Index: app/src/main/java/com/example/assignment_group/FoodItem.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/assignment_group/FoodItem.java b/app/src/main/java/com/example/assignment_group/FoodItem.java
+new file mode 100644
+--- /dev/null	
++++ b/app/src/main/java/com/example/assignment_group/FoodItem.java	
+@@ -0,0 +1,4 @@
++package com.example.assignment_group;
++
++public class FoodItem {
++}
