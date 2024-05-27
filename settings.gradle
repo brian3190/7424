@@ -19,5 +19,9 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "Assignment-group"
+=======
+rootProject.name = "assignment_group"
+>>>>>>> Alex
 include ':app'
