@@ -1,5 +1,12 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
+<<<<<<< HEAD
 alias(libs.plugins.androidApplication) apply false
+<<<<<<< HEAD
 
+=======
+=======
+alias(libs.plugins.android.application) apply false
+>>>>>>> Alex
+>>>>>>> c1a5f1f607287ea9afaf4a913529cf8d5fe60fa5
 }
