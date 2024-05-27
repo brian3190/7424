@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Assignment-group.iml" filepath="$PROJECT_DIR$/.idea/modules/Assignment-group.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Assignment-group.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/7424.Assignment-group.iml" filepath="$PROJECT_DIR$/.idea/modules/7424.Assignment-group.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/7424.Assignment-group.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/7424.Assignment-group.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/7424.Assignment-group.app.androidTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/7424.Assignment-group.app.androidTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/7424.Assignment-group.app.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/7424.Assignment-group.app.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/7424.Assignment-group.app.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/7424.Assignment-group.app.unitTest~1.iml" />
     </modules>
   </component>
 </project>
