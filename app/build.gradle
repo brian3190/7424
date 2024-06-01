@@ -1,9 +1,5 @@
 plugins {
-<<<<<<< HEAD
     alias(libs.plugins.androidApplication)
-=======
-    alias(libs.plugins.android.application)
->>>>>>> Alex
 }
 
 android {
