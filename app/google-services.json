@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "879160351747",
+    "firebase_url": "https://msd2024group-default-rtdb.firebaseio.com",
+    "project_id": "msd2024group",
+    "storage_bucket": "msd2024group.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879160351747:android:905848c7f167daa0d50236",
+        "android_client_info": {
+          "package_name": "com.example.assignment_group"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0JutRYx8-pqq2vV3ItJ5KBfHn1glSIgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879160351747:android:2c815290d4a5f1c7d50236",
+        "android_client_info": {
+          "package_name": "com.example.msd2024group"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0JutRYx8-pqq2vV3ItJ5KBfHn1glSIgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
