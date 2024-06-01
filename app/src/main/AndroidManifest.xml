@@ -10,11 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-<<<<<<< HEAD
         android:theme="@style/Theme.Assignmentgroup"
-=======
-        android:theme="@style/Theme.Assignment_group"
->>>>>>> Alex
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
