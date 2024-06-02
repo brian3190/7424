@@ -19,13 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-<<<<<<< HEAD
-rootProject.name = "Assignment-group"
-<<<<<<< HEAD
 
-=======
-=======
 rootProject.name = "assignment_group"
->>>>>>> Alex
->>>>>>> c1a5f1f607287ea9afaf4a913529cf8d5fe60fa5
 include ':app'

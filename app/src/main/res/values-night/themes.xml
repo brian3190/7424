@@ -1,14 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
->>>>>>> c1a5f1f607287ea9afaf4a913529cf8d5fe60fa5
     <style name="Base.Theme.Assignmentgroup" parent="Theme.Material3.DayNight.NoActionBar">
-=======
-    <style name="Base.Theme.Assignment_group" parent="Theme.Material3.DayNight.NoActionBar">
->>>>>>> Alex
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>

@@ -1,29 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<<<<<<< HEAD
-
     <style name="Base.Theme.Assignmentgroup" parent="Theme.Material3.DayNight.NoActionBar">
-
-=======
-<<<<<<< HEAD
-    <style name="Base.Theme.Assignmentgroup" parent="Theme.Material3.DayNight.NoActionBar">
-=======
-    <style name="Base.Theme.Assignment_group" parent="Theme.Material3.DayNight.NoActionBar">
->>>>>>> Alex
->>>>>>> c1a5f1f607287ea9afaf4a913529cf8d5fe60fa5
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-<<<<<<< HEAD
-
     <style name="Theme.Assignmentgroup" parent="Base.Theme.Assignmentgroup" />
-
-=======
-<<<<<<< HEAD
-    <style name="Theme.Assignmentgroup" parent="Base.Theme.Assignmentgroup" />
-=======
-    <style name="Theme.Assignment_group" parent="Base.Theme.Assignment_group" />
->>>>>>> Alex
->>>>>>> c1a5f1f607287ea9afaf4a913529cf8d5fe60fa5
 </resources>
