@@ -4,18 +4,18 @@ public class FoodItem {
     String foodName;
     int foodPrice;
     int discount;
-    String availabitlity;
-    String Description;
-    String image;
+
+    String description;
+    //String image;
     String category;
 
-    public FoodItem(String foodName, int foodPrice, int discount, String availabitlity, String description, String image, String category) {
+    public FoodItem(String foodName, int foodPrice, int discount, String description,  String category) {
         this.foodName = foodName;
         this.foodPrice = foodPrice;
         this.discount = discount;
-        this.availabitlity = availabitlity;
-        Description = description;
-        this.image = image;
+
+        this.description = description;
+        //this.image = image;
         this.category = category;
     }
 
@@ -43,29 +43,23 @@ public class FoodItem {
         this.discount = discount;
     }
 
-    public String getAvailabitlity() {
-        return availabitlity;
-    }
 
-    public void setAvailabitlity(String availabitlity) {
-        this.availabitlity = availabitlity;
-    }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public void setDescription(String description) {
-        Description = description;
+        this.description = description;
     }
 
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
+//    public String getImage() {
+//        return image;
+//    }
+//
+//    public void setImage(String image) {
+//        this.image = image;
+//    }
 
     public String getCategory() {
         return category;

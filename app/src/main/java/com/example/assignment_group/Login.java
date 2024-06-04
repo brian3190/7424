@@ -34,19 +34,16 @@ public class Login extends AppCompatActivity {
         String username, password;
         username = txtUsername.getText().toString();
         password = txtPassword.getText().toString();
-        if(TextUtils.isEmpty(username)||TextUtils.isEmpty(password)){
+        if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)) {
             Toast.makeText(Login.this, "Please enter both username and password", Toast.LENGTH_SHORT).show();
+        } else if (username.equals("admin") && password.equals("admin")) {
+
         }
-        return;
-        //mAuth.signInWithEmailAndPassword(username, password)
-//        if (currentUser != null){
-//            Intent intent = new Intent(this, MainActivity.class);
-//            startActivity(intent);
-//        }
     }
 
-    public void register(View view) {
-        Intent intent = new Intent(this, RegisterAs.class);
-        startActivity(intent);
+        public void register(View view){
+            Intent intent = new Intent(this, RegisterAs.class);
+            startActivity(intent);
+        }
     }
-}
+
