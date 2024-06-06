@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    >
+    tools:context=".AddFunds">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100sp"
         android:orientation="vertical"
         android:background="@color/red"
+        android:gravity="center"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Log in"
+            android:text="Add Funds"
             android:textColor="@color/white"
             android:textSize="50sp"
             android:gravity="center"
@@ -24,57 +28,42 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/grey"
-        android:padding="30dp"
+        android:gravity="center"
+        android:padding="20sp"
         >
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/wallet"
+            android:gravity="center"
+            />
         <EditText
-            android:id="@+id/txt_email"
+            android:id="@+id/amount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email:"
             android:textSize="30sp"
-            android:background="@color/white"
-            android:layout_marginTop="90sp"
+            android:hint="Enter Amount"
 
             />
-        <EditText
-            android:id="@+id/txt_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Password:"
-            android:layout_marginTop="30sp"
-            android:textSize="30sp"
-            android:background="@color/white"
-            />
         <Button
             android:layout_width="200sp"
             android:layout_height="wrap_content"
-            android:text="Log in"
-            android:layout_gravity="center"
-            android:layout_marginTop="40sp"
-            android:onClick="login"
+            android:text="Add Funds"
             android:textSize="30sp"
-            />
-        <Button
-            android:layout_width="200sp"
-            android:layout_height="wrap_content"
-            android:text="Register"
-            android:layout_gravity="center"
-            android:layout_marginTop="20sp"
-            android:onClick="register"
-            android:textSize="30sp"
+            android:gravity="center"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:onClick="addFundsToBalance"
             />
         <Button
             android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Back"
-            android:layout_gravity="center"
-            android:layout_marginTop="20sp"
-            android:onClick="back"
             android:textSize="30sp"
+            android:gravity="center"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:onClick="backToHome"
             />
-
-
-
     </LinearLayout>
-
 </LinearLayout>
