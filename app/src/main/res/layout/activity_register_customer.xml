@@ -10,10 +10,19 @@
     >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100sp"
+        android:layout_height="140sp"
         android:orientation="vertical"
         android:background="@color/red"
+        android:padding="10sp"
         >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Customer"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
 
     </LinearLayout>
     <LinearLayout
@@ -21,7 +30,115 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/grey"
+
+
         >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:layout_marginTop="30sp"
+
+            android:padding="20sp"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail"
+            android:hint="Email: "
+            android:textSize="30sp"
+            android:background="@color/white"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:hint="Password: "
+            android:textSize="30sp"
+            android:background="@color/white"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etFirstName"
+            android:hint="First Name: "
+            android:textSize="30sp"
+            android:background="@color/white"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etLastName"
+            android:hint="Last Name: "
+            android:textSize="30sp"
+            android:background="@color/white"
+
+            />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etUserName"
+                android:hint="Username: "
+                android:textSize="30sp"
+                android:background="@color/white"
+
+                />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPhoneNumber"
+            android:hint="Phone Number: "
+            android:textSize="30sp"
+            android:background="@color/white"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etAddress"
+            android:hint="Address: "
+            android:textSize="30sp"
+            android:background="@color/white"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etBankAccount"
+            android:hint="Bank Account: "
+            android:textSize="30sp"
+            android:background="@color/white"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/grey"
+            android:layout_marginTop="30sp"
+
+            android:padding="20sp"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Register"
+                android:id="@+id/btnRegister"
+                android:background="@color/red"
+                android:onClick="registerCustomer"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Cancel"
+                android:id="@+id/btnBack"
+                android:background="@color/red"
+                android:onClick="cancel"
+                />
+        </LinearLayout>
+
 
     </LinearLayout>
 

@@ -69,7 +69,7 @@ public class RegisterRestaurant extends AppCompatActivity {
 
                 DatabaseReference myRef = database.getReference("Restaurants");
                 FirebaseUser currentUser = mAuth.getCurrentUser();
-                myRef.child(mAuth.getCurrentUser().getUid()).setValue(new Restaurant(username, password, name, owner, location, category, email, (int) Integer.parseInt(phNumber), (int) Integer.parseInt(bankNumber)));
+                myRef.child(mAuth.getCurrentUser().getUid()).setValue(new Restaurant(username, password, name, owner, location, category, email, phNumber, bankNumber));
                 Toast.makeText(this, "Registered Successfully", Toast.LENGTH_SHORT).show();
 
 
@@ -85,5 +85,9 @@ public class RegisterRestaurant extends AppCompatActivity {
     }
     public void loginRestaurant(String username, String password) {
         mAuth.signInWithEmailAndPassword(username, password);
+    }
+
+    public void cancel(View view) {
+        finish();
     }
 }

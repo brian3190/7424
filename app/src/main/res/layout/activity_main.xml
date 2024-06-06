@@ -18,8 +18,7 @@
         <ImageView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:src="@drawable/ic_launcher_background"
-            />
+            android:src="@drawable/logo" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,61 +37,70 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100sp"
-        android:layout_marginTop="10sp"
+        android:layout_height="match_parent"
+
 
         android:background="@color/red"
-        android:orientation="horizontal">
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="250sp"
-        android:background="@color/red"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:padding="30dp"
-        >
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="300sp"
-            android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:background="@color/red"
+            android:orientation="horizontal"
+            android:gravity="center"
             android:padding="30dp"
+            >
 
-            />
-    </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300sp"
+                android:layout_height="match_parent"
+                android:padding="30dp"
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100sp"
-        android:background="@color/green"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:layout_marginTop="70sp"
+                />
+        </LinearLayout>
 
-        >
-
-        <Button
-            style="?android:buttonBarButtonStyle"
-            android:layout_width="50sp"
-            android:layout_height="50sp"
-            android:text="Button" />
-
-        <Button
-            style="?android:buttonBarButtonStyle"
-            android:layout_width="100sp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="100sp"
-            android:background="@drawable/shoppingcart"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="190sp"
 
-       />
 
-        <Button
-            style="?android:buttonBarButtonStyle"
-            android:layout_width="50sp"
-            android:layout_height="50sp"
-            android:text="Button" />
+            >
+
+            <Button
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:text="Browse"
+                android:onClick="browse"
+                />
+
+            <Button
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/shoppingcart"
+                android:onClick="cart"
+                android:text="Cart"
+
+                />
+
+            <Button
+                style="?android:buttonBarButtonStyle"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:text="Profile"
+                android:onClick="openProfile"/>
+
+        </LinearLayout>
 
     </LinearLayout>
+
+
+
+
 
 </LinearLayout>

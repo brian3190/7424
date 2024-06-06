@@ -11,12 +11,14 @@ public class Restaurant{
     String location;
     String category;
     String email;
-    int phNumber;
-    int bankNumber;
+    String phNumber;
+    String bankNumber;
 
     List<FoodItem> menu;
 
-    public Restaurant(String username, String password, String name, String owner, String location, String category, String email, int phNumber, int bankNumber) {
+    public Restaurant() {}
+
+    public Restaurant(String username, String password, String name, String owner, String location, String category, String email, String phNumber, String bankNumber) {
         this.username = username;
         this.password = password;
         this.name = name;
@@ -85,19 +87,19 @@ public class Restaurant{
         this.email = email;
     }
 
-    public int getPhNumber() {
+    public String getPhNumber() {
         return phNumber;
     }
 
-    public void setPhNumber(int phNumber) {
+    public void setPhNumber(String phNumber) {
         this.phNumber = phNumber;
     }
 
-    public int getBankNumber() {
+    public String getBankNumber() {
         return bankNumber;
     }
 
-    public void setBankNumber(int bankNumber) {
+    public void setBankNumber(String bankNumber) {
         this.bankNumber = bankNumber;
     }
 }
