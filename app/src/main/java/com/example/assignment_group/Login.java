@@ -36,10 +36,6 @@ public class Login extends AppCompatActivity {
         txtEmail = findViewById(R.id.txt_email);
         txtPassword = findViewById(R.id.txt_password);
 
-
-
-
-
     }
 
     public void login(View view) {
@@ -50,7 +46,6 @@ public class Login extends AppCompatActivity {
             Toast.makeText(Login.this, "Please enter both username and password", Toast.LENGTH_SHORT).show();
         } else if (email.equals("admin") && password.equals("admin")) {
             Toast.makeText(Login.this, "Welcome Admin", Toast.LENGTH_SHORT).show();
-
         }
         else{
             mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this, task -> {
