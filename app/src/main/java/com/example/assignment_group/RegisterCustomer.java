@@ -27,7 +27,7 @@ public class RegisterCustomer extends AppCompatActivity {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
 
-    DatabaseReference myRef = database.getReference("Customers");
+
     FirebaseAuth auth = FirebaseAuth.getInstance();
 
 
@@ -60,19 +60,22 @@ public class RegisterCustomer extends AppCompatActivity {
         String firstname = etFirstName.getText().toString();
         String lastname = etLastName.getText().toString();
         String username = etUserName.getText().toString();
+        Customer customer = new Customer(firstname, lastname, username, email, password, phoneNumber, address, bankAccount);
         if (email.isEmpty() || password.isEmpty() || phoneNumber.isEmpty() || address.isEmpty() || bankAccount.isEmpty() || firstname.isEmpty() || lastname.isEmpty() || username.isEmpty()) {
             Toast.makeText(this, "Please fill all fields", Toast.LENGTH_SHORT).show();
 
         }
         else {
+
             auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if (task.isSuccessful()) {
                         FirebaseUser currentUser = auth.getCurrentUser();
                         if (currentUser != null) {
-                            Customer customer = new Customer(firstname, lastname, username, email, password, phoneNumber, address, bankAccount);
-                            myRef.child(currentUser.getUid()).setValue(customer);
+                            DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("customers");
+//                            Customer customer = new Customer(firstname, lastname, username, email, password, phoneNumber, address, bankAccount);
+                            myRef.push().setValue(customer);
                             Intent intent = new Intent(RegisterCustomer.this, MainActivity.class);
                             intent.putExtra("currentUser", currentUser);
                             startActivity(intent);
@@ -91,4 +94,5 @@ public class RegisterCustomer extends AppCompatActivity {
 
 
     }
+
 }

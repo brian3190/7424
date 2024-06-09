@@ -12,20 +12,40 @@
         android:layout_width="match_parent"
         android:layout_height="150sp"
         android:background="@color/red"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:src="@drawable/logo" />
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="100sp"
+            >
 
         <TextView
+            android:id="@+id/txt_welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hungry? Log in"
             android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:textSize="30sp"
             />
-
+        <ImageButton
+            android:layout_marginStart="62sp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/wallet"
+            android:onClick="addFunds"
+            android:adjustViewBounds="true"
+            />
+    </LinearLayout>
 
     </LinearLayout>
 
@@ -43,17 +63,19 @@
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="250sp"
+            android:layout_height="400sp"
             android:background="@color/red"
             android:orientation="horizontal"
             android:gravity="center"
             android:padding="30dp"
             >
 
+
             <androidx.cardview.widget.CardView
                 android:layout_width="300sp"
-                android:layout_height="match_parent"
+                android:layout_height="300sp"
                 android:padding="30dp"
+                android:layout_marginTop="50sp"
 
                 />
         </LinearLayout>

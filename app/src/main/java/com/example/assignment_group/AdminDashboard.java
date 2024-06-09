@@ -1,6 +1,8 @@
 package com.example.assignment_group;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,15 @@ public class AdminDashboard extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void addCustomer(View view) {
+        Intent intent = new Intent(this, RegisterCustomer.class);
+        startActivity(intent);
+    }
+
+    public void addRestaurant(View view) {
+        Intent intent = new Intent(this, RegisterRestaurant.class);
+        startActivity(intent);
     }
 }
