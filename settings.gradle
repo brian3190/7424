@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Assignment-group"
+
+rootProject.name = "assignment_group"
 include ':app'
