@@ -35,62 +35,70 @@
             android:id="@+id/txt_restaurant_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant UserName: "
+            android:hint="Restaurant UserName: "
+            android:textSize="20sp"
             />
         <EditText
             android:id="@+id/txt_restaurant_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant Password: "
+            android:hint="Restaurant Password: "
+            android:textSize="20sp"
             />
         <EditText
             android:id="@+id/txt_restaurant_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant Name: "
+            android:hint="Restaurant Name: "
+            android:textSize="20sp"
             />
         <EditText
             android:id="@+id/txt_restaurant_owner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant Owner: "
+            android:hint="Restaurant Owner: "
+            android:textSize="20sp"
             />
         <EditText
             android:id="@+id/txt_restaurant_location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant Location: "
+            android:hint="Restaurant Location: "
+            android:textSize="20sp"
             />
         <EditText
             android:id="@+id/txt_restaurant_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant Category: "
+            android:hint="Restaurant Category: "
+            android:textSize="20sp"
             />
         <EditText
             android:id="@+id/txt_restaurant_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant Email: "
+            android:hint="Restaurant Email: "
+            android:textSize="20sp"
             />
         <EditText
             android:id="@+id/txt_restaurant_phNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant Phone Number: "
+            android:hint="Restaurant Phone Number: "
+            android:textSize="20sp"
             />
         <EditText
             android:id="@+id/txt_restaurant_bankNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Restuarant Bank Account Number: "
+            android:hint="Restaurant Bank Account Number: "
+            android:textSize="20sp"
             />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100sp"
             android:orientation="vertical"
-
-
+            android:layout_marginTop="20sp"
             >
             <Button
                 android:layout_width="200sp"
@@ -116,8 +124,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-
-
 
 </LinearLayout>

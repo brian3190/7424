@@ -28,6 +28,15 @@
             android:name=".shoppingcart.ItemsListPage"
             android:exported="false" />
         <activity
+            android:name=".AddFunds"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RestaurantDetails"
+            android:exported="false" />
+        <activity
             android:name=".AdminDashboard"
             android:exported="false" />
         <activity
