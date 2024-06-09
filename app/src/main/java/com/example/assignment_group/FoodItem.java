@@ -14,9 +14,17 @@ public class FoodItem {
         this.foodPrice = foodPrice;
         this.discount = discount;
         this.availabitlity = availabitlity;
-        Description = description;
+        this.Description = description;
         this.image = image;
         this.category = category;
+    }
+
+    public FoodItem(String foodName, int foodPrice, int discount, String category, String description){
+        this.foodName = foodName;
+        this.foodPrice = foodPrice;
+        this.discount = discount;
+        this.category = category;
+        this.Description = description;
     }
 
     public String getFoodName() {
