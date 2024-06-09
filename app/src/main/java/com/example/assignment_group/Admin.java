@@ -5,6 +5,7 @@ public class Admin{
     String password;
     String userType;
 
+
     public Admin() {
     }
 
@@ -29,4 +30,7 @@ public class Admin{
     public void setPassword(String password) {
         this.password = password;
     }
+=======
+
+
 }

@@ -9,9 +9,11 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
         android:text="Checkout"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="566dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartRecyclerView" />
 
     <TextView
         android:id="@+id/textView"
