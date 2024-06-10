@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddFunds">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:orientation="vertical"
+        android:background="@color/red"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Funds"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="20sp"
+        >
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/wallet"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:hint="Enter Amount"
+
+            />
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Add Funds"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:onClick="addFundsToBalance"
+            />
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:onClick="backToHome"
+            />
+    </LinearLayout>
+</LinearLayout>

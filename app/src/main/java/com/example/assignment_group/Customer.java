@@ -5,22 +5,24 @@ public class Customer {
     String lastName;
 
     String userName;
-    String Password;
+    String password;
 
-    long phoneNumber;
+    String phoneNumber;
     String email;
     String address;
-    int bankAccount;
+    String bankAccount;
 
-    public Customer(String firstName, String lastName, String userName, String password, long phoneNumber, String email, String address, int bankAccount) {
+    public Customer() {}
+    public Customer(String firstName, String lastName, String userName, String password, String phoneNumber, String email, String address, String bankAccount) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.userName = userName;
-        Password = password;
+        this.password = password;
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.address = address;
         this.bankAccount = bankAccount;
+        String userType = "Customer";
     }
 
     public String getFirstName() {
@@ -48,18 +50,18 @@ public class Customer {
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        this.password = password;
     }
 
-    public long getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(long phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -79,11 +81,11 @@ public class Customer {
         this.address = address;
     }
 
-    public int getBankAccount() {
+    public String getBankAccount() {
         return bankAccount;
     }
 
-    public void setBankAccount(int bankAccount) {
+    public void setBankAccount(String bankAccount) {
         this.bankAccount = bankAccount;
     }
 }

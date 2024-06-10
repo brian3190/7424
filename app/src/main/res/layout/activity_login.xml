@@ -27,10 +27,12 @@
         android:padding="30dp"
         >
         <EditText
-            android:id="@+id/txt_username"
+            android:id="@+id/txt_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username"
+            android:hint="Email:"
+            android:textSize="30sp"
+            android:background="@color/white"
             android:layout_marginTop="90sp"
 
             />
@@ -38,24 +40,37 @@
             android:id="@+id/txt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="Password:"
             android:layout_marginTop="30sp"
+            android:textSize="30sp"
+            android:background="@color/white"
             />
         <Button
-            android:layout_width="120sp"
+            android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Log in"
             android:layout_gravity="center"
             android:layout_marginTop="40sp"
             android:onClick="login"
+            android:textSize="30sp"
             />
         <Button
-            android:layout_width="120sp"
+            android:layout_width="200sp"
             android:layout_height="wrap_content"
             android:text="Register"
             android:layout_gravity="center"
             android:layout_marginTop="20sp"
             android:onClick="register"
+            android:textSize="30sp"
+            />
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:onClick="back"
+            android:textSize="30sp"
             />
 
 

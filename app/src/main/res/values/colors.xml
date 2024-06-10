@@ -9,4 +9,6 @@
     <color name="cyan">#FF00FFFF</color>
     <color name="magenta">#FFFF00FF</color>
     <color name="grey">#FF808080</color>
+    <color name="cardclr">#E1E1E2</color>
+    <color name="tabclr">#3F83A5</color>
 </resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterRestaurant">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140sp"
+        android:orientation="vertical"
+        android:background="@color/red"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Restaurant"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:padding="10sp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/grey"
+        android:padding="30sp"
+        >
+        <EditText
+            android:id="@+id/txt_restaurant_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant UserName: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant Password: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant Name: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_owner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant Owner: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant Location: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant Category: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant Email: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_phNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant Phone Number: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_bankNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restaurant Bank Account Number: "
+            android:textSize="20sp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            >
+            <Button
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Register"
+
+                android:background="@color/red"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:onClick="registerRestaurant"
+                />
+            <Button
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+
+                android:background="@color/red"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:onClick="cancel"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
