@@ -13,6 +13,33 @@
         android:theme="@style/Theme.Assignmentgroup"
         tools:targetApi="31">
         <activity
+            android:name=".AddFunds"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RestaurantDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".AddMenuItem"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterRestaurant"
+            android:exported="false" />
+        <activity
+            android:name=".RestaurantDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".RestaurantRecyclerView"
+            android:exported="false" />
+        <activity
             android:name=".RegisterAs"
             android:exported="false" />
         <activity

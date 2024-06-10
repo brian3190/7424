@@ -10,13 +10,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class RegisterAs extends AppCompatActivity {
+public class AdminDashboard extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_register_as);
+        setContentView(R.layout.activity_admin_dashboard);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -24,18 +24,13 @@ public class RegisterAs extends AppCompatActivity {
         });
     }
 
-    public void registerAsCustomer(View view) {
+    public void addCustomer(View view) {
         Intent intent = new Intent(this, RegisterCustomer.class);
         startActivity(intent);
-
     }
 
-    public void registerAsRestaurant(View view) {
+    public void addRestaurant(View view) {
         Intent intent = new Intent(this, RegisterRestaurant.class);
         startActivity(intent);
-    }
-
-    public void cancel(View view) {
-        finish();
     }
 }

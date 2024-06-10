@@ -6,22 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".RegisterCustomer"
-    >
+    tools:context=".RegisterRestaurant">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="140sp"
         android:orientation="vertical"
         android:background="@color/red"
-        android:padding="10sp"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register Customer"
+            android:text="Register Restaurant"
             android:textSize="50sp"
-            android:textColor="@color/white"
             android:gravity="center"
+            android:padding="10sp"
+            android:textColor="@color/white"
             />
 
     </LinearLayout>
@@ -30,116 +29,105 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@color/grey"
-
-
+        android:padding="30sp"
         >
+        <EditText
+            android:id="@+id/txt_restaurant_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant UserName: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant Password: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant Name: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_owner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant Owner: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant Location: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant Category: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant Email: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_phNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant Phone Number: "
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/txt_restaurant_bankNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Restuarant Bank Account Number: "
+            android:textSize="20sp"
+            />
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="100sp"
             android:orientation="vertical"
-            android:background="@color/grey"
-            android:layout_marginTop="30sp"
+            android:layout_marginTop="20sp"
 
-            android:padding="20sp"
-            >
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/etEmail"
-            android:hint="Email: "
-            android:textSize="30sp"
-            android:background="@color/white"
 
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/etPassword"
-            android:hint="Password: "
-            android:textSize="30sp"
-            android:background="@color/white"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/etFirstName"
-            android:hint="First Name: "
-            android:textSize="30sp"
-            android:background="@color/white"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/etLastName"
-            android:hint="Last Name: "
-            android:textSize="30sp"
-            android:background="@color/white"
-
-            />
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/etUserName"
-                android:hint="Username: "
-                android:textSize="30sp"
-                android:background="@color/white"
-
-                />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/etPhoneNumber"
-            android:hint="Phone Number: "
-            android:textSize="30sp"
-            android:background="@color/white"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/etAddress"
-            android:hint="Address: "
-            android:textSize="30sp"
-            android:background="@color/white"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/etBankAccount"
-            android:hint="Bank Account: "
-            android:textSize="30sp"
-            android:background="@color/white"
-            />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/grey"
-            android:layout_marginTop="30sp"
-
-            android:padding="20sp"
             >
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
                 android:text="Register"
-                android:id="@+id/btnRegister"
+
                 android:background="@color/red"
-                android:onClick="registerCustomer"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:onClick="registerRestaurant"
                 />
             <Button
-                android:layout_width="match_parent"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
                 android:text="Cancel"
-                android:id="@+id/btnBack"
+
                 android:background="@color/red"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
                 android:onClick="cancel"
                 />
+
         </LinearLayout>
 
-
     </LinearLayout>
+
+
+
 
 </LinearLayout>
